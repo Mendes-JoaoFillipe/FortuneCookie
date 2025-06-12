@@ -35,11 +35,11 @@ function reiniciar() {
       <Text style={styles.textoPhrase}>{phrase}</Text>
 
       <TouchableOpacity style={styles.botao} onPress={BrokenCookie}>
-        <Text style={styles.textoBotao}>Quebrar Biscoito</Text>
+        <Text style={styles.textoBotao}>Quebrar Cookie</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={[styles.botao, styles.botaoReiniciar]} onPress={reiniciar}>
-        <Text style={styles.textoBotao}>Reiniciar</Text>
+        <Text style={styles.textoBotao}>Pegar Outro Cookie</Text>
       </TouchableOpacity>
     </View>
   );
@@ -48,7 +48,7 @@ function reiniciar() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FFF0F5',
+    backgroundColor: '#FDD99C',
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   botao: {
-    backgroundColor: '#8B008B',
+    backgroundColor: '#D14900',
     paddingVertical: 10,
     paddingHorizontal: 25,
     borderRadius: 10,
@@ -78,6 +78,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   botaoReiniciar: {
-    backgroundColor: '#C71585',
+    backgroundColor: '#FDA400',
   },
 });
